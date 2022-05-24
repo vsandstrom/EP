@@ -32,7 +32,7 @@ Server.killAll;
 s.waitForBoot( { 
 	var koltrast = Buffer.read(
 		s,
-		"/Users/viktorsandstrom/Documents/DAW/SC/Koltrast/ZOOM0078_LR.WAV"
+		"./samples/ZOOM0078_LR.WAV"
 	);
 	var tempo = TempoClock.new(54/60);
 	s.sync;
