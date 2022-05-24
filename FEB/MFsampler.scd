@@ -29,11 +29,6 @@ Server.default.options.outDevice = "Built-in Output";
 s.waitForBoot({
 
 var buf = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/aferes_edit.wav");
-var buf0 = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/f\#add2no3.wav");
-var buf1 = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/f\#c\#bas.wav");
-var buf2 = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/b\#dima\#bas.wav");
-var buf3 = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/a\#c\#bas.wav");
-var buf4 = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/piano0.wav");
 var buf5 = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/piano1.wav");
 
 ~b0 = true;
