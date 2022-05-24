@@ -28,8 +28,8 @@ Server.default.options.outDevice = "Built-in Output";
 
 s.waitForBoot({
 
-var buf = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/aferes_edit.wav");
-var buf5 = Buffer.read(s, "/Users/viktorsandstrom/Documents/DAW/SC/MFsampler/samples/piano1.wav");
+var buf = Buffer.read(s, "./samples/aferes_edit.wav");
+var buf5 = Buffer.read(s, "./samples/piano1.wav");
 
 ~b0 = true;
 ~b1 = true;
