@@ -1,13 +1,3 @@
-s.reboot;
-ServerOptions.outDevices;
-//s.inDevice = "UltraLite AVB";.outDevice = "Soundflower (64ch)";
-// (
-s.options.outDevice = "UltraLite AVB";
-s.options.inDevice = "UltraLite AVB";
-// )
-Server.killAll;
-MIDIClient.init;
-
 s.waitForBoot({	
 	s.dumpOSC(0);
 
