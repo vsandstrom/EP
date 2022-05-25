@@ -1,13 +1,4 @@
-s.options.inDevice = "UltraLite AVB"; // check correct spelling!!!!
-s.options.outDevice = "UltraLite AVB"; // check correct spelling!!!!
-s.options.outDevice = "Soundflower (64ch)";
-s.reboot;
-ServerOptions.devices;
-s.options.inDevice;
-
 // TUNING Pitch : 65.41
-
-
 
 s.waitForBoot({ 
 	
