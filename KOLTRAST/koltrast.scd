@@ -3,31 +3,9 @@
 // Create pingable filter synth, pinged by a Dust.kr, an airy eerie drone with emphasis on higher register.
 // Create fft pitch tracking of koltrastar
 
-// TODO: Now everything sounds pretty good in respect to the trigger function based on volume range of fieldrec.
-// Should do a new layer, use this state as a backdrop for something more structured.
-
-
 // TODO: make DWG synth move more, melody or movement in chords. 
 // TODO: write more clear bass line
 // TODO: write more interesting bass sound synth
-
-s.options.outDevice = "Built-in Output";
-s.options.inDevice = "Built-in Input";
-s.options.outDevice;
-ServerOptions.outDevices;
-s.options.outDevice = "UltraLite AVB";
-s.options.inDevice = "UltraLite AVB";
-s.options.outDevice = "16A";
-s.options.inDevice = "16A";
-s.options.outDevice = "BlackHole 16ch";
-
-s.options.outDevice = "Soundflower (2ch)";
-s.options.inDevice = "Soundflower (2ch)";
-s.reboot;
-s.meter; 
-s.plotTree;
-s.makeGui
-Server.killAll;
 
 s.waitForBoot( { 
 	var koltrast = Buffer.read(
