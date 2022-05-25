@@ -1,14 +1,4 @@
 s.options.memSize = 8192 * 16;
-s.makeWindow;
-s.boot;
-s.reboot;
-s.options.sampleRate = 48000;
-
-Server.default.options.outDevice = "BlackHole 16ch";
-Server.default.options.outDevice = "16A";
-Server.default.options.outDevice = "UltraLite AVB";
-Server.default.options.inDevice = "UltraLite AVB"; s.reboot;
-Server.default.options.outDevice = "Built-in Output";
 
 /* TODO:
 -> [*] Add new texture to piece complementing sampler.
@@ -20,11 +10,6 @@ Server.default.options.outDevice = "Built-in Output";
 -> [ ] Add amplitude triggered synth for percussive sounds, triggered by signals in either left or right channel, post pan.
 	   Should change with the Balance2 pan argument. Perhaps 3 layers, in[0], in[1] and in[0 + 1]
 */
-
-// SynthDef(\passThru, {
-// 	Out.ar(\out.kr(0), SoundIn.ar([ \in.kr(6), \in.kr +1 ]), \vol.kr(0.2));
-// }).add;
-// Synth(\passThru[\in, 4]);
 
 s.waitForBoot({
 
