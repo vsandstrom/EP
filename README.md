@@ -12,7 +12,8 @@ The music has been recorded and can be found at my soundcloud here:
 
 Some pieces is lacking the audiofiles needed for the pieces to be performed, but others should be complete. 
 
-I am using my own help-class to a MIDI-device called [16n](https://16n-faderbank.github.io/)
+I am using my own help-class to a MIDI-device called [16n](https://16n-faderbank.github.io/).
+
 It is represented as the object:
 
 ```supercollider
