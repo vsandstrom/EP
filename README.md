@@ -1,14 +1,8 @@
 # EP
 
 This repo is a collection of music as SuperCollider code that was performed on the 17th of may 2022, as part of my final concert at the Bachelors studies in electroacoustic music at Kungliga Musikhögskolan in Stockholm.  
-The music has been recorded and can be found at my soundcloud here:
->[DEC](https://soundcloud.com/viktorsandstrm/dec)
->
->[Koltrast](https://soundcloud.com/viktorsandstrm/koltrast)
->
->[K87-89](https://soundcloud.com/viktorsandstrm/fev)
->
->[FEB](https://soundcloud.com/viktorsandstrm/feb)
+The music has been recorded and can be found on BandCamp:
+>[2020 / 2021 EP - Viktor Sandström](https://viktorsandstrm.bandcamp.com/album/2020-2021)
 
 Some pieces is lacking the audiofiles needed for the pieces to be performed, but others should be complete. 
 
